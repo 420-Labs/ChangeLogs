@@ -85,4 +85,20 @@ Cuando regabas un árbol y obtenías una fruta, nadie podía ver esa increíble 
 
 Algunas correcciones de errores :D
 
-*¿Realmente leíste todo? Reacciona con un 🦑 en el mensaje de anuncio si lo hiciste*
+## [0.2.2] Correcciones de errores
+
+### El comando de ayuda no estaba buscando
+
+El comando `/help` no estaba buscando la información del comando que querías conocer. Parece que estaba bloqueando todas las descripciones de comandos como "comandos de administrador", y los comandos de administrador no se deberian mostrar en el comando de ayuda. ¡Todo esto se ha solucionado ahora!
+
+### Búsqueda de comandos en varios idiomas
+
+Ahora puedes buscar ayuda para comandos tanto en el idioma predeterminado (inglés) como en español, y en el futuro funcionará con más idiomas si se agregan.
+
+### Traducción de comandos que no se mostraban
+
+- Water (Agua)
+- Fertilize (Fertilizar)
+- Mega Fertilize (Mega Fertilizar)
+
+Todos estos comandos no mostraban su traducción en el cliente de Discord.

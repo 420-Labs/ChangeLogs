@@ -85,4 +85,20 @@ When you watered a tree and got a fruit, nobody could see that amazing fruit you
 
 Some bug fixes :D
 
-*Did you really read all? React with a 🦑 on the announcement message if you did*
+## [0.2.2] Bug fixes
+
+### Help command was not searching
+
+The `/help` command was not searching for the command you wanted to know information about. Looks like it was blocking all command descriptions as "admin commands" and admin commands aren't shown in the help command. All of this was now fixed!
+
+### Multi-Language help command searching
+
+You couldn't only search help for commands with the default command language (English) now, this works with Spanish as well and will work with more languages in the future, if additional languages are added.
+
+### Commands translation not displaying
+
+- Water
+- Fertilize
+- Mega Fertilize
+
+All those commands were not displaying their translation on the discord client.
