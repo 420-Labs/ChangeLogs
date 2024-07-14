@@ -102,3 +102,20 @@ Ahora puedes buscar ayuda para comandos tanto en el idioma predeterminado (ingl�
 - Mega Fertilize (Mega Fertilizar)
 
 Todos estos comandos no mostraban su traducción en el cliente de Discord.
+
+## [0.2.3] Recompensas por votar
+
+### Recompensas por votar incluidas
+
+¡Como leíste! Ahora puedes votar por TreeBot en [Top.gg](https://top.gg/bot/1169844816176230480/vote) y [DiscordBotList](https://discordbotlist.com/bots/treebot-1943/upvote) para obtener **5x 🪴 Mega Fertilizantes**, ¡solo por votar!
+
+Y, por supuesto, se agregó el comando `/vote` para que puedas acceder fácilmente a los enlaces de votación.
+
+> [!NOTE]
+> Mientras Top.gg notifica a TreeBot instantáneamente sobre tu voto, DiscordBotList puede tardar hasta una hora en notificar a TreeBot. Como resultado, deberás esperar al menos una hora para recibir la recompensa en DiscordBotList.
+
+### Algunas correcciones de errores
+
+- Se actualizó la biblioteca que interactúa con Discord a la última versión, corrigiendo algunos errores con las interacciones fallidas.
+- `/profile` mostraba *"No traducido (BACKGROUND.BACKGROUND-XX.NAME)"* debido a una actualización en cómo se gestionan los códigos de idioma de los fondos.
+- Algunas otras correcciones menores

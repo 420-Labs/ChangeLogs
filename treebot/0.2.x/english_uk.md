@@ -102,3 +102,21 @@ You couldn't only search help for commands with the default command language (En
 - Mega Fertilize
 
 All those commands were not displaying their translation on the discord client.
+
+## [0.2.3] Vote rewards
+
+### Included vote rewards
+
+As you read! you can now vote for TreeBot on [Top.gg](https://top.gg/bot/1169844816176230480/vote) and [DiscordBotList](https://discordbotlist.com/bots/treebot-1943/upvote) to get **5x 🪴 Mega Fertilizers**, just for voting!
+
+And of course, the `/vote` command was added so you can access the vote links easily.
+
+> [!NOTE]
+> While Top.gg notifies TreeBot instantly about your vote, DiscordBotList can take up to an hour to notify TreeBot. As a result, you will need to wait at least an hour to get the reward for DiscordBotList.
+
+### Some bug fixes
+
+- Updated the library that interact with discord to the latest, fixing some bugs with failed interactions
+- `/profile` was showing *"Not Translated (BACKGROUND.BACKGROUND-XX.NAME)"* because of an update with how Background language codes are managed.
+- Some other small fixes
+ 
